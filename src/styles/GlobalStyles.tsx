@@ -4,8 +4,8 @@ import { myColors } from "./Colors";
 export const Styles = StyleSheet.create({
     
     btnBlue: {
-        width: 72,
-        height: 72,
+        width: 60,
+        height: 60,
         borderRadius: 24,
         backgroundColor: myColors.blue,
         justifyContent: "center",
@@ -13,8 +13,8 @@ export const Styles = StyleSheet.create({
         margin: 8,
     },
     btnDark: {
-        width: 72,
-        height: 72,
+        width: 60,
+        height: 60,
         borderRadius: 24,
         backgroundColor: myColors.btnDark,
         justifyContent: "center",
@@ -22,8 +22,8 @@ export const Styles = StyleSheet.create({
         margin: 8,
     },
     btnLight: {
-        width: 72,
-        height: 72,
+        width: 60,
+        height: 60,
         borderRadius: 24,
         backgroundColor: myColors.white,
         justifyContent: "center",
@@ -31,8 +31,8 @@ export const Styles = StyleSheet.create({
         margin: 8,
     },
     btnGray: {
-        width: 72,
-        height: 72,
+        width: 60,
+        height: 60,
         borderRadius: 24,
         backgroundColor: myColors.btnGray,
         justifyContent: "center",
@@ -40,11 +40,11 @@ export const Styles = StyleSheet.create({
         margin: 8,
     },
     smallTextLight: {
-        fontSize: 32,
+        fontSize: 25,
         color: myColors.white,
     },
     smallTextDark: {
-        fontSize: 32,
+        fontSize: 20,
         color: myColors.black,
     },
    
@@ -59,7 +59,7 @@ export const Styles = StyleSheet.create({
         
     },
     screenFirstNumber: {
-        fontSize: 96,
+        fontSize: 70,
         color: myColors.gray,
         fontWeight: '200',
         alignSelf: "flex-end",
