@@ -40,7 +40,3 @@ export default function Button({ title, onPress, isBlue, isGray }: ButtonProps) 
         </TouchableOpacity>
     );
 }
-
-
-
-
